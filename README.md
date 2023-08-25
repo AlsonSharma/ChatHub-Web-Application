@@ -29,15 +29,15 @@ To run the Chat Hub locally, follow these steps:
 2. Send messages in the chat input field.
 3. Your messages will appear on the right side.
 4. Incoming messages from other users will appear on the left side.
-5. Audio notification will play for incoming messages.
+5. Audio notifications will play for incoming messages.
 
 ## Contributing
 
 Contributions are welcome! If you find a bug or want to improve the application, feel free to open an issue or submit a pull request.
 
-## License
+## CREDITS
 
-This project is licensed under the 
+Developed by Alson Sharma (https://github.com/AlsonSharma).
 
-Developed by [Alson Sharma](https://github.com/AlsonSharma)
+
 
