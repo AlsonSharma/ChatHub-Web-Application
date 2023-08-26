@@ -10,8 +10,8 @@ Chat Hub is a real-time chat web application that allows users to engage in live
 
 To run the Chat Hub locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/yourusername/chat-hub.git`
-2. Navigate to the project directory: `cd chat-hub`
+1. Clone this repository: `git clone https://github.com/AlsonSharma/ChatHub-Web-Application.git`
+2. Navigate to the project directory: `cd chat-hub-Web-Application`
 3. Install dependencies: `npm install`
 4. Start the server: `node index.js`
 5. Open `index.html` in your browser.
