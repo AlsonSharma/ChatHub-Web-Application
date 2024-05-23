@@ -12,11 +12,12 @@ To run the Chat Hub locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/AlsonSharma/ChatHub-Web-Application.git`
 2. Navigate to the project directory: `cd chat-hub-Web-Application`
-3. Install dependencies: `npm install`
-4. Start the server: `node index.js`
-5. Open `index.html` in your browser.
-6. Enter your name to join the chat.
-7. Start sending and receiving messages in real-time.
+3. Navigate to the nodeServer: `cd nodeServer`
+4. Install dependencies: `npm install`
+5. Start the server: `nodemon index.js`
+6. Open `index.html` in your browser.
+7. Enter your name to join the chat.
+8. Start sending and receiving messages in real-time.
 
 ## Dependencies
 
