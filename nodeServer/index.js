@@ -1,7 +1,8 @@
 // It is a nodeServer to handle socket io connection
-const io = require('socket.io')(8090, {
+require('dotenv').config();
+const io = require('socket.io')(process.env.PORT || 8090, {
     cors: {
-      origin: 'http://127.0.0.1:5500',
+      origin: 'process.env.CLIENT_ORIGIN || http://127.0.0.1:5500',
       methods: ['GET', 'POST'],
       allowedHeaders: ['Content-Type']
     }
