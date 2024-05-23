@@ -2,7 +2,7 @@
 require('dotenv').config();
 const io = require('socket.io')(process.env.PORT || 8090, {
     cors: {
-      origin: 'process.env.CLIENT_ORIGIN || http://127.0.0.1:5500',
+      origin: process.env.CLIENT_ORIGIN || 'http://127.0.0.1:5500',
       methods: ['GET', 'POST'],
       allowedHeaders: ['Content-Type']
     }
